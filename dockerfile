@@ -14,4 +14,4 @@ COPY . .
 RUN npm install
 
 # will run when container will be running
-CMD node script.js
+CMD npm start

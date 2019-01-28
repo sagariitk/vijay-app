@@ -8,18 +8,19 @@ const jwt = require('jsonwebtoken');
 
 
 var connection = mysql.createConnection({
-    host: 'localhost',
+    host: 'vijay-app-db.ckv6z1bs6r16.us-east-2.rds.amazonaws.com',
     user: 'root',
     password: '12345678',
-    database: 'sampleDB'
+    database: 'sampleDB',
+    port: '3306'
 });
 
 connection.connect(function(error){
-    if(!!error) {
+    if(error) {
         console.log('error');
     }
     else {
-        console.log('connection succesful');
+        console.log('connection succesful'); 
     }
 });
 
