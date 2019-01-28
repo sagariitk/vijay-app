@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken');
 
 
 var connection = mysql.createConnection({
-    host: 'vijay-app-db.ckv6z1bs6r16.us-east-2.rds.amazonaws.com',
+    host: 'localhost',
     user: 'root',
     password: '12345678',
     database: 'sampleDB'
