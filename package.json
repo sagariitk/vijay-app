@@ -16,7 +16,7 @@
       "concurrently": "^4.0.1"
     },
     "scripts": {
-      "start": "nodemon server.js"
+        "start": "concurrently  \"nodemon server.js\" \"cd vijay-react && npm start\""
     },
     "author": "Sagar Yadav",
     "license": "ISC"
